@@ -5,7 +5,7 @@ Granular events, instantiated in a document by predicates, can usually be groupe
 In this paper, we introduce the task of complex event identification. We address this task as a pipeline, first predicting whether two granular events mentioned in the text belong to the same complex event, independently of their position in the text, and then using this to cluster them into complex events. Due to the difficulty of predicting whether two granular events belong to the same complex event in isolation, we propose a context-augmented representation learning approach \textsc{ContextRL} that adds additional context to better model the pairwise relation of granular events. We show that our approach outperforms strong baselines on the complex event identification task and further present a promising case study showing the effectiveness of using complex events as input for document-level argument extraction.
 ## Requirements
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## Dataset
