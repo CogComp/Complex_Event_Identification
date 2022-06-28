@@ -27,6 +27,7 @@ The outputs are stored in **data/complex**.
 Our model is stored at [Google Drive](https://drive.google.com/file/d/1a4oyeI5y6kPdhsIEQItRyUSkI5UFS90D/view?usp=sharing). Please download it and put it in the **models** folder.
 
 ## Model Training
+After creating directory named "outputs", run the following-
 ```
 bash train_attn.sh
 ```
